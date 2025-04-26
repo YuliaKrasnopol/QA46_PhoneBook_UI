@@ -10,7 +10,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.seleniumhq.selenium:selenium-devtools-v135:4.19.1'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.19.0'
     implementation 'org.testng:testng:7.9.0'
     implementation 'org.seleniumhq.selenium:selenium-java:4.26.0'
     implementation 'ch.qos.logback:logback-classic:1.5.18'
